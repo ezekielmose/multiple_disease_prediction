@@ -15,7 +15,7 @@ import joblib
 import io
 
 # Hearth Disease Model
-hd_url = 'https://raw.githubusercontent.com/ezekielmose/Machine-Learning/refs/heads/main/trained_model2.sav'
+hd_url = 'https://raw.githubusercontent.com/ezekielmose/Machine-Learning/refs/heads/main/trained_model.sav'
 
 
 # Fetch the model file from GitHub
