@@ -59,7 +59,7 @@ if (selected == "Heart Disease Prediction"):
         input_data_reshaped = input_data_as_numpy_array.reshape(1, -1)
         
         # instead of 'model' we use loaded_model
-        prediction = loaded_model.predict(input_data_reshaped)
+        prediction = hd_model.predict(input_data_reshaped)
 
 
         if prediction [0] == 0:
