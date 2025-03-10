@@ -50,7 +50,7 @@ with st.sidebar:
 
 if (selected == "Healthcare Models"):
     # set title
-    st.title ("Healthcare Models model")
+    st.title ("Hearth Disease Prediction model")
     
 if (selected == "Stroke Prediction"):
     # set title
