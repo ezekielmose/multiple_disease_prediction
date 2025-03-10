@@ -43,18 +43,17 @@ stroke_model = pickle.load(io.BytesIO(response.content))
 
 with st.sidebar:
     selected = option_menu("Healthcare Models",
-                           ["Heart Disease Prediction",
-                            "Stroke Prediction"],default_index=0)
+                           ["Heart Disease Prediction", "Stroke Prediction"] , default_index=0)
 
 # Hearth Disease Prediction Page
 
-if (selected == "Healthcare Models"):
+if (selected == "Heart Disease Prediction"):
     # set title
     st.title ("Hearth Disease Prediction model")
     
 if (selected == "Stroke Prediction"):
     # set title
-    st.title ("Strok Prediction model")
+    st.title ("Stroke Prediction model")
     
     
     # Apply custom CSS
