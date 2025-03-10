@@ -15,7 +15,7 @@ import joblib
 import io
 
 # Hearth Disease Model
-hd_url = 'https://raw.githubusercontent.com/ezekielmose/multiple_disease_prediction/refs/heads/main/hd_model.pkl'
+hd_url = 'https://raw.githubusercontent.com/ezekielmose/multiple_disease_prediction/refs/heads/main/hd_model1.pkl'
 
 
 # Fetch the model file from GitHub
