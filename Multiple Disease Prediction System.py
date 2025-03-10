@@ -54,7 +54,7 @@ if (selected == "Healthcare Models"):
     
 if (selected == "Stroke Prediction"):
     # set title
-    st.title ("Stroke Prediction model")
+    st.title ("Strok Prediction model")
     
     
     # Apply custom CSS
